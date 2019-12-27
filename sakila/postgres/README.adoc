@@ -1,0 +1,9 @@
+== PostgreSQL Container with Sakila Database
+
+=== How to Run
+* See link:https://github.com/docker-library/docs/tree/master/postgres#environment-variables[documentation of postgres image]
+  for environment variables, especially `POSTGRES_PASSWORD`
+* Map the exposed port 5432
+
+=== Links
+* link:https://hub.docker.com/_/postgres[Documentation of postgres image]

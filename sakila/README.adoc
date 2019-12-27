@@ -1,0 +1,8 @@
+== Sakila Database
+
+The Sakila database is a nicely normalised database modelling a DVD rental store.
+You can find a more detailed description and an entity–relationship model
+link:https://github.com/jOOQ/jOOQ/blob/master/jOOQ-examples/Sakila/readme.md[here].
+
+=== Available Database Containers
+* link:postgres[PostgreSQL]
