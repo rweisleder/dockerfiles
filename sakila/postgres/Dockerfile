@@ -7,9 +7,9 @@ ENV PGDATA=/data
 # Download Sakila from jOOQ
 ADD \
     --chown=postgres:postgres \
-    https://github.com/rweisleder/jOOQ/raw/sakila-postgres-fix/jOOQ-examples/Sakila/postgres-sakila-db/postgres-sakila-schema.sql \
+    https://github.com/rweisleder/jOOQ/raw/master/jOOQ-examples/Sakila/postgres-sakila-db/postgres-sakila-schema.sql \
     /docker-entrypoint-initdb.d/01_create_schema.sql
 ADD \
     --chown=postgres:postgres \
-    https://github.com/rweisleder/jOOQ/raw/sakila-postgres-fix/jOOQ-examples/Sakila/postgres-sakila-db/postgres-sakila-insert-data.sql \
+    https://github.com/rweisleder/jOOQ/raw/master/jOOQ-examples/Sakila/postgres-sakila-db/postgres-sakila-insert-data.sql \
     /docker-entrypoint-initdb.d/02_insert_data.sql
